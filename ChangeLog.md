@@ -135,7 +135,7 @@ being thrown (as Quartz expects it to be), not MongoDB driver's.
 It is now possible to connect using a MongoDB URI:
 
 ``` ini
-org.quartz.jobStore.class=com.novemberain.quartz.mongodb.MongoDBJobStore
+org.quartz.jobStore.class=MongoDBJobStore
 # Use the mongo URI to connect
 org.quartz.jobStore.mongoUri= mongodb://localhost:27020
 org.quartz.jobStore.dbName=quartz
